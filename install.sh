@@ -42,7 +42,7 @@ message_print "Cloning main repo with submodules..."
 
 # This also clones submodules
 # Add --remote-submodules if you want to update submodules to latest commit and not current repo commit
-git clone --recurse-submodules -j2 https://github.com/Pelochus/ezrknpu
+git clone --recurse-submodules -j2 https://github.com/80Builder80/ezrknpu
 cd ezrknpu
 
 message_print "Updating submodules..."
